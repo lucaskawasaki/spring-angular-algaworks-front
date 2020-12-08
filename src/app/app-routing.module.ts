@@ -1,17 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TabViewModule } from 'primeng/tabview';
+import {InputTextModule} from 'primeng/inputtext';
+import {ButtonModule} from 'primeng/button';
 
 const routes: Routes = [];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
-    TabViewModule
+    InputTextModule,
+    ButtonModule
   ],
   exports: [
     RouterModule,
-    TabViewModule
+    InputTextModule,
+    ButtonModule
   ]
 })
 export class AppRoutingModule { }
