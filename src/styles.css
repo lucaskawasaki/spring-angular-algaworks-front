@@ -16,7 +16,16 @@ label {
     }   
 }
 
-.col-valor-header {
+.ui-button-icon-only{
+  padding: .20em 0.5em .20em 0.5em;
+  margin: 15x;
+}
+
+.space-temp-icons {
+  margin: 0 .25em!important;
+}
+
+  .col-valor-header {
     width: 120px;
   }
 
