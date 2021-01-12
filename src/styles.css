@@ -16,6 +16,43 @@ label {
     }   
 }
 
+@media (min-width: 40em) {
+  .col-disappear {
+    width: 0px; 
+    height: 0px; 
+    display: inline-block; 
+    overflow: hidden;
+  }
+  .col-valor-header {
+    width: 120px;
+  }
+
+  .col-valor {
+    text-align: left !important;
+  }
+
+  .col-data-header {
+    width: 120px;
+  }
+
+  .col-data {
+    text-align: center !important;
+  }
+
+  .col-acoes-header {
+    width: 115px;
+  }
+
+  .col-acoes {
+    width: 115px;
+    text-align: center !important;
+  }
+
+  .col-acoes .p-button {
+    margin: 1px;
+  }
+}
+
 .ui-button-icon-only{
   padding: .20em 0.5em .20em 0.5em;
   margin: 15x;
