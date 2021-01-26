@@ -9,12 +9,14 @@ import { ButtonModule } from 'primeng/button';
 import { TooltipModule } from 'primeng/components/tooltip/tooltip';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AppPessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LancamentosPesquisaComponent,
-    NavbarComponent
+    NavbarComponent,
+    AppPessoasPesquisaComponent
   ],
   imports: [
     BrowserModule,
